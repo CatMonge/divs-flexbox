@@ -128,13 +128,8 @@ body {
   color: #fff;
   line-height: 1.3em;
   font-size: 1em;
-  background-color:#da9595;
-z;
+  background-color: #da9595;
   height: auto;
-}
-.wrapper span {
-  font-family: "Lora", sans-serif;
-  font-size: 1.3em;
 }
 
 /* ==========================================================================
