@@ -103,17 +103,23 @@ html {
 
 body {
   font-family: "Montserrat", sans-serif;
-  padding: 2em;
+  padding: 0em 2em;
   font-size: 1.25em;
   height: 100%;
   color: #817b7b;
+  /*display: flex;
+  justify-content: center; */
 }
 header,
 footer {
   display: flex;
   justify-content: flex-start;
-  height: 80px;
+  height: 100px;
   width: 100%;
+}
+header,
+footer,
+main {
   background: url(../img/bkgd-3.jpg) no-repeat center center fixed;
   background-size: cover;
 }
@@ -123,6 +129,11 @@ main {
   width: 100%;
   height: 250px;
   background-color: #fff;
+  font-size: 1.3em;
+}
+header h1 {
+  font-family: "Megrim", sans-serif;
+  font-size: 2.5em;
 }
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
@@ -130,7 +141,7 @@ main {
   justify-content: space-between;
   font-weight: 500;
   flex-flow: row wrap;
-  align-items: center;
+  /** align-items: center; **/
 }
 
 .flex-items {
@@ -138,12 +149,12 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  /** width: 30%; **/
+  width: 33.3%;
   color: #fff;
   line-height: 1.3em;
   font-size: 1em;
   background-color: #da9595;
-  height: auto;
+  /** height: auto; **/
 }
 
 /* ==========================================================================
